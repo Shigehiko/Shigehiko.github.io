@@ -178,7 +178,7 @@ a:hover {
 }
 */
 .thumb {
-    background: url("street3.jpg") no-repeat;
+    background:url(../images/street3.jpg) no-repeat;
     background-position: center;
    
 }
@@ -313,7 +313,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url("bgd.jpg") no-repeat bottom center scroll;
+    background:url(../images/bgd.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
