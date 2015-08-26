@@ -5,6 +5,16 @@ $(".thumb").hover(function () {
                 $("img", this).stop().animate({opacity:1},"fast");
             });
 
+$('.btn').mouseover(function(){
+        
+        $(this).css("background-color", "white");
+        $(this).css("color", "black");
+        }).mouseout(function(){
+            $(this).css("background-color","transparent");
+            
+            $(this).css("color", "white");
+        });
+
 
 
 
@@ -31,4 +41,7 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+
+
 

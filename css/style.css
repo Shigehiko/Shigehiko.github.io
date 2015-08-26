@@ -2,7 +2,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #fff;
 }
 
@@ -10,23 +10,6 @@ html {
     width: 100%;
     height: 100%;
 }
-
-.right {
-    float:right;
-}
-
-.left {
-    float:left;
-}
-
-.clearfix:after{  
-visibility:hidden;/*見えなくする*/ 
-height:0;/*見えなくする*/
-display: block;/*block要素にする*/
-font-size: 0;  
-content: " ";  
-clear: both;  
-}  
 
 h1,
 h2,
@@ -45,6 +28,51 @@ p {
     line-height: 1.5;
 }
 
+.clearfix:after{  
+visibility:hidden;/*見えなくする*/ 
+height:0;/*見えなくする*/
+display: block;/*block要素にする*/
+font-size: 0;  
+content: " ";  
+clear: both;  
+
+}   
+
+.left {
+    float: left;
+    display: inline;
+}
+
+#text1  {
+   
+
+}
+
+#text1 li {
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px #fff;
+}
+
+#text1 li.active {
+    background-color: #fff;
+    color: #000;
+}
+
+p.text2 span{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px #fff;
+}
+
+p.text2 .active{
+    background-color: #fff;
+    color: #000;
+}
+
+
 #logo {
   
   padding-top: 130px;
@@ -61,7 +89,7 @@ p {
 
 #logo h1 {
   padding-top:30px;
-  font-family: 'Pacifico', cursive;
+  font-family: Arial, Helvetica, sans-serif;
   color: #fff;
 }
 
@@ -83,12 +111,12 @@ p {
 }
 
 .navbar-brand {
- font-family: 'Merriweather', serif;   
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 ul.nav li {
-    font-family: 'Merriweather', serif;
-    font-family: 'Merriweather', serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -96,86 +124,105 @@ a {
 }
 
 a:hover {
-    color:#111;
+    color:#123456;
 }
 
-#about {
-    width:100%;
-    margin:0;
-    padding:0;
-    padding-bottom:50px;
-    background-color:#65eec6; 
-}
-
-
-
-#about h2{
-    font-size:40px;
-    padding-bottom:50px;
-    font-family: 'Merriweather', serif;
-    color:#000;
-}
-
-#about p{
-    font-size:20px;
-    color:#000;
-}
+    
 
 #about1 {
     width:100%;
     margin:0;
     padding:0;
     padding-top:100px;
-     padding-bottom:100px;
-    background-color:#123456;
+    padding-bottom:100px;
+    background:#f5f4f4;
 }
 
 
 
 #about1 h2{
-    font-size:40px;
-    
-    padding-bottom:100px;
-   font-family: 'Merriweather', serif;
-   color:#000;
+    font-size:40px;   
+    padding-bottom:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#676767;
 }
 
 #about1 ul li {
     list-style: none;
     color: #000;
     font-size: 20px;
+    
 }
 
 #about1 ul li.icon {
     font-size: 50px;
     padding-bottom: 50px;
+    color: #676767;
 }
 
 #about1 ul li.font1 {
-     font-family: 'Merriweather', serif;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 25px;
      padding-bottom: 20px;
+     color: #333333;
 }
 
 #about1 ul li.font2{
     font-size: 15px;
-
+    line-height: 27px;
+    color: #676767;
 }
 
 
+#skill{
+    width:100%;
+    margin:0;
+    padding:0;
+    padding-top:100px;
+    padding-bottom:100px;
+    background:#00b5b4;
+    
+}
+
+#skill h2{
+    font-size:40px;   
+    padding-bottom:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+}
+
+#skill ul li {
+    list-style: none;
+    color: #000;
+}
+
+#skill #skill-sub_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#skill #skill-contents {
+    line-height: 40px;
+    text-align: left;
+}
+
+
+.progress {background: rgba(196, 196, 196, 1)}; 
+.progress-bar-custom {background: rgba(117, 213, 245, 0.97);}
+
+
 #portfolio{
-     padding-top:100px;
+     width:100%;    
+     padding-top:100px;     
+     padding-bottom:100px;     
+     background:#333333;
 }
 
 #portfolio h2{
     font-size:40px;
-    font-family: 'Merriweather', serif;
-    color:#000;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
 
-#portfolio {
-    width:100%;
-    background-color:#fff;
 }
 
 
@@ -190,29 +237,31 @@ a:hover {
 
 
 
-#portfolio ul li.col-sm-6 {
+
+.col-sm-6 {
       margin-top: 10px;    
 }
 
 
+
+
 .thumb {
-    background:url(../images/street3.jpg) no-repeat;
+	background:url(../images/Microposts_hover.jpg) no-repeat;
     background-position: center;
    
 }
 
 
 
-
-
 #contact h2 {
     font-size:40px;
-    font-family: 'Merriweather', serif;
+    font-family: Arial, Helvetica, sans-serif;
     color:#000;
 }
 
 
 footer {
+  width: 100%;
   padding: 20px 0;
   font-size: 93%;
   background-color: #ccc;
@@ -284,7 +333,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: #85cdfd;
     background-color: transparent;
 }
 
@@ -292,6 +341,7 @@ a:focus {
 .navbar-custom .nav li a:active {
     outline: 0;
     background-color: transparent;
+
 }
 
 .navbar-custom .nav li.active {
@@ -300,10 +350,11 @@ a:focus {
 
 .navbar-custom .nav li.active a {
     background-color: rgba(255,255,255,.3);
+    color: #85cdfd;
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+    color: #85cdfd;
 }
 
 @media(min-width:768px) {
@@ -320,7 +371,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #333333;
     }
 }
 
@@ -331,7 +382,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background:url(../images/bgd.jpg) no-repeat bottom center scroll;
+	background:url(../images/bgd.jpg);
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -366,4 +417,6 @@ a:focus {
         font-size: 26px;
     }
 }
+
+
 
