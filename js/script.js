@@ -6,12 +6,12 @@ $(".thumb").hover(function () {
             });
 
 $('.btn').mouseover(function(){
-        
+
         $(this).css("background-color", "white");
-        $(this).css("color", "black");
+        $(this).css("color", "white");
         }).mouseout(function(){
             $(this).css("background-color","transparent");
-            
+
             $(this).css("color", "white");
         });
 
@@ -41,7 +41,3 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
-
-
-
-
